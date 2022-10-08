@@ -1,9 +1,20 @@
+console.log(beer)
+function cervezas (array, grades){
+    let beeer = []
+    for(let beer of array){
+        if(parseInt(beer.abv) <= grades ){
+            beeer.push(beer)
+        }
+    }
+    return beeer
+}
+
+let cerveza = cervezas(beer, 4)
+console.log(cerveza)
 
 
-// 2) Generar una funcion que reciba como parametro el array de cervezas y 
-// un valor de alcohol (numero). La funcion debe devolver un nuevo array con
-// las cervezas que no excedan el nivel etílico. Cada elemento del nuevo array
-// debe ser un objeto que tenga sólo las propiedades name, (alcohol) abv y ("amargor") ibu
-// para las 12:15 tiramos ruleta a ver hasta donde llegaron
+
+
+
 
 

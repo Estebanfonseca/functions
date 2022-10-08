@@ -1,4 +1,4 @@
-let beers = [
+const beer = [
   {
     "id": 1,
     "name": "Buzz",
@@ -3271,4 +3271,3 @@ let beers = [
   }
 ]
 
-console.log('%c Exitos =) ', 'background: #222; color: #a855f7');

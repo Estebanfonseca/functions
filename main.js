@@ -11,10 +11,3 @@ function cervezas (array, grades){
 
 let cerveza = cervezas(beer, 4)
 console.log(cerveza)
-
-
-
-
-
-
-

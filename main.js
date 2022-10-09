@@ -1,4 +1,4 @@
-console.log(beer)
+
 function cervezas (array, grades){
     let beeer = []
     for(let beer of array){
@@ -44,6 +44,11 @@ function las10Menos (array){
 let losMenos = las10Menos(beer)
 console.log(losMenos)
 
+
+
+function ordenPor(array,prop,bool){
+    
+}
 
 
 

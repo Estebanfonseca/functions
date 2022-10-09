@@ -46,9 +46,20 @@ console.log(losMenos)
 
 
 
-function ordenPor(array,prop,bool){
-    
+function ordenPor(array){
+    array.sort((a,b) =>{
+        if(a.name > b.name){
+            return 1
+        }else if(a.name< b.name){
+            return -1
+        }else{
+            return 0
+        }
+    })
+    return array.slice(0,10)
 }
+let prop = ordenPor(beer)
+console.log(prop)
 
 
 
